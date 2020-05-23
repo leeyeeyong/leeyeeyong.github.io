@@ -18,6 +18,30 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+ul.menubar {
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+li {
+  display:inline;
+}
+
+li a {
+  display:inline-block;
+  padding:10px;
+	font-weight: bold;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
 a:link {
 	color: black;
 	background-color: transparent;
@@ -52,7 +76,7 @@ a:hover {
   position:fixed;
   top:50px;
   left:0px;
-  height:30px;
+  height:40px;
   right:0px;
   overflow:hidden;
 }
@@ -75,4 +99,16 @@ a:hover {
   right:0px;
   overflow: hidden;
   margin-top: auto;
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+  ul.menubar li a {
+    text-align: center;
+    float: none;
+  }
 }
