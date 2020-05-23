@@ -110,12 +110,106 @@ div.indexcontent{
   font-size: 500px;
 }
 
+div.aboutimage{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+div.aboutcontent{
+  width:70%;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+.divsep{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.CMcontainerL{
+  width: 320px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.CMcontainerR{
+  width: 320px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.CM {
+	width:320px;
+	height:100px;
+	margin-top:5px;
+	margin-bottom:20px;
+	float:left;
+	transition:height 0.5s;
+	overflow:hidden;
+}
+.CM:hover{
+	height:300px;
+}
+.CMoverlay{
+	margin-top:40px;
+	background-color:white;
+	height:300px;
+	transition: transform 0.3s;
+}
+.CM:hover .CMoverlay{
+	transform: translateY(0px);
+}
+.CMbanText{
+	margin-top:30px;
+	font-size:25px;
+	color:black;
+}
+.CMoverlayText{
+	width:300px;
+	padding-top:10px;
+	margin:auto;
+}
+
+/*-----------------------------------------------------------------*/
+/*                           900px Screen                          */
+/*-----------------------------------------------------------------*/
+
 @media screen and (max-width: 900px) {
 
   div.indexcontent{
     font-size: 350px;
   }
+
+  .divsep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CMcontainerL{
+    width: 320px;
+    margin: 0 auto;
+    text-align:center;
+  }
+  
+  .CMcontainerR{
+    width: 320px;
+    margin: 0 auto;
+    text-align:center;
+  }
 }
+
+/*-----------------------------------------------------------------*/
+/*                           400px Screen                          */
+/*-----------------------------------------------------------------*/
 
 @media screen and (max-width: 400px) {
 
@@ -126,5 +220,24 @@ div.indexcontent{
 
   div.indexcontent{
     font-size: 200px;
+  }
+
+  .divsep{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CMcontainerL{
+    width: 320px;
+    margin: 0 auto;
+    text-align:center;
+  }
+  
+  .CMcontainerR{
+    width: 320px;
+    margin: 0 auto;
+    text-align:center;
   }
 }
