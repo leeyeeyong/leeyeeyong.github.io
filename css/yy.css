@@ -120,7 +120,7 @@ div.aboutimage{
 }
 
 div.aboutcontent{
-  width:70%;
+	width:200px;
   margin:0;
   padding:0;
   text-align:center;
@@ -134,13 +134,18 @@ div.aboutcontent{
 }
 
 .CMcontainerL{
-  width: 320px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   margin: 0 auto;
   text-align:center;
+  align:right;
 }
 
 .CMcontainerR{
-  width: 320px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   margin: 0 auto;
   text-align:center;
 }
