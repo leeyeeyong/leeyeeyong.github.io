@@ -99,10 +99,22 @@ a:hover {
   right:0px;
   overflow: hidden;
   margin-top: auto;
+  width: 100%;
+}
+
+/*-----------------------------------------------------------------*/
+/*                         Content Specific                        */
+/*-----------------------------------------------------------------*/
+
+div.indexcontent{
+  font-size: 500px;
 }
 
 @media screen and (max-width: 900px) {
 
+  div.indexcontent{
+    font-size: 350px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -110,5 +122,9 @@ a:hover {
   ul.menubar li a {
     text-align: center;
     float: none;
+  }
+
+  div.indexcontent{
+    font-size: 200px;
   }
 }
