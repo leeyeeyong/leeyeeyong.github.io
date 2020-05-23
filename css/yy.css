@@ -35,10 +35,20 @@ a:hover {
   overflow:hidden;
 }
 
+.menu {
+  background-color:rgb(225, 255, 205);
+  position:absolute;
+  top:50px;
+  left:0px;
+  height:30px;
+  right:0px;
+  overflow:hidden;
+}
+
 .content {
   background-color: beige;
   position:absolute;
-  top:50px;
+  top:80px;
   bottom:30px;
   left:0px;
   right:0px;
