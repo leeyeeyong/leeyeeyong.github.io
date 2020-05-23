@@ -107,7 +107,7 @@ a:hover {
 /*-----------------------------------------------------------------*/
 
 div.indexcontent{
-  font-size: 300px;
+  font-size: 200px;
 }
 
 div.aboutimage{
@@ -188,7 +188,7 @@ div.aboutcontent{
 @media screen and (max-width: 900px) {
 
   div.indexcontent{
-    font-size: 150px;
+    font-size: 100px;
   }
 
   .divsep{
